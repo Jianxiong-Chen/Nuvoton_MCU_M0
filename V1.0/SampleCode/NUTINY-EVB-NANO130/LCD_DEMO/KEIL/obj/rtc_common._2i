@@ -1,0 +1,5 @@
+-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\..\Library\LCDLib\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\Device\Nuvoton\Nano100Series\Include -I ..\..\..\..\Library\CMSIS\Include
+-ID:\software\tools\Keil_v5\ARM\RV31\INC
+-ID:\software\tools\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="530"
+-o .\obj\rtc_common.o --list_dir ".\\lst\\" --list --omf_browse .\obj\rtc_common.crf --depend .\obj\rtc_common.d --feedback ".\obj\LCD_DEMO.fed" "..\..\COMMON\RTC_Common.c"
